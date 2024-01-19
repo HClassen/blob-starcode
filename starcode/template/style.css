@@ -1,0 +1,104 @@
+body {
+        /* Hier kann die Farbe verändert werden */
+        background: #76afd8;
+}
+
+h1 {
+        text-align: center;
+        font-size: 300%;
+
+        /* Hier kann die Farbe verändert werden */
+        color: blueviolet;
+}
+
+/* Style für die Box mit dem gesamten Chatbot */
+#chatbot {
+        width: 50%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: auto;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 0 50px grey;
+
+        /* Hier kann die Farbe verändert werden */
+        background: white;
+}
+
+/* "border" ist eine CSS-Class für alle HTML-Elemente mit einem Rahmen  */
+.border {
+        border-radius: 15px;
+        margin: 5px 3px 5px 3px;
+
+        /* Hier können alle drei Werte verändert werden */
+        border: 3px solid blueviolet;
+}
+
+/* Style für die Box mit den Chatnachrichten */
+#msg-box {
+        overflow-y: auto;
+        height: 70%;
+        padding: 0px 20px 100px;
+}
+
+/* "msg ist eine CSS-Class für Chatbot- und Usernachrichten */
+.msg {
+        display: flex;
+        list-style: none;
+        font-size: 2em;
+}
+
+/* "incoming" ist eine CSS-Class für alle Usernachrichten */
+.incoming {
+        margin: 20px 0;
+        justify-content: flex-end;
+}
+
+/* "incoming" ist eine CSS-Class für alle Chatbotnachrichten */
+.outgoing {
+        margin: 20px 0;
+        justify-content: flex-start;
+}
+
+/* Hiermit werden die Textblasen der Chatbotnachrichten gestyled */
+.outgoing p {
+        border-radius: 10px 10px 10px 0px;
+        max-width: 75%;
+        padding: 3px 10px 3px 10px;
+
+        /* Hier kann die Farbe verändert werden */
+        background-color: rgb(229, 228, 228);
+
+        /* Hier können alle drei Werte verändert werden */
+        border: 3px solid rgb(151, 151, 151);
+}
+
+/* Hiermit werden die Textblasen der Usernachrichten gestyled */
+.incoming p {
+        border-radius: 10px 10px 0px 10px;
+        max-width: 75%;
+        padding: 3px 10px 3px 10px;
+
+        /* Hier kann die Farbe verändert werden */
+        background-color: rgb(229, 228, 228);
+
+        /* Hier können alle drei Werte verändert werden */
+        border: 3px solid rgb(151, 151, 151);
+}
+
+/* Style für das Inputfeld */
+#msg-input {
+        width: 70%;
+        font-size: 120%;
+}
+
+/* Style für den Inputbutton */
+#msg-button {
+        width: 10%;
+        font-size: 120%;
+
+        /* Hier kann die Farbe verändert werden */
+        background-color: white;
+}

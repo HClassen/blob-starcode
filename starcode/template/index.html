@@ -1,0 +1,32 @@
+<html lang="de">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Einbinden von Style und JavaScript Dateien -->
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+
+        <!-- Titel der Webseite -->
+        <title>Chatbot</title>
+</head>
+<body onload="register()">
+        <div id="chatbot">
+                <!-- Überschrift auf der Webseite -->
+                <h1 class="border">Chatbot Marvin</h1>
+
+                <!-- Box mit den Chatnachrichten -->
+                <ul id="msg-box" class="border">
+                        <li class="msg outgoing">
+                                <p>Hallo 👋 <br> Wie kann ich helfen?</p>
+                        </li>
+                </ul>
+
+                <!-- Box mit dem Inputfeld und -button -->
+                <div id="input-box">
+                        <input id="msg-input" class="border" type="text" placeholder="Schreibe etwas..." autofocus>
+                        <button id="msg-button" class="border">Senden</button>
+                </div>
+        </div>
+</body>
+</html>
